@@ -1,7 +1,7 @@
 def square_array(array)
+  new_array = Array.new
   array.each do |element|
-    array.unshift(element)
-    array.shift(element*element)
+    new_array << element
   end
-  new_array = Array.new(array)
+  
 end
