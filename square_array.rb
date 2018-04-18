@@ -6,4 +6,5 @@ def square_array(array)
   new_array.each do |element|
     element * element
   end
+  new_array
 end
